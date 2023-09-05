@@ -1,0 +1,296 @@
+.details {
+    height: 380px;
+    width: 400px;
+    background-color: rgb(254, 250, 250);
+    border-radius: 30px;
+    display: none;
+    position: absolute;
+    scale: 1;
+    z-index: 10;
+}
+
+#dil:checked~.details {
+    /* position: absolute;
+    position: sticky; */
+    display: block;
+    left: 400px;
+    top: 200px;
+
+}
+
+.details form {
+    margin: 20px;
+}
+
+.formgrid {
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+.formgrid input {
+    padding: 2px;
+}
+
+.country {
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.country div {
+    padding: 2px;
+}
+
+.details form h2 a {
+    margin-right: 100px;
+}
+
+#des {
+    margin-top: 10px;
+}
+
+.button {
+    background-color: red;
+    color: black;
+    padding: 13px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+
+
+
+nav {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.201);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar li a {
+
+    text-decoration: none;
+    margin: 4px;
+}
+
+.centernav {
+    padding: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.201);
+    border-radius: 30px;
+}
+
+.centernav a {
+    padding: 2px 5px 0px 5px;
+    border-right: 1px solid rgba(0, 0, 0, 0.243);
+    color: black;
+}
+
+.lastnav {
+    display: flex;
+}
+
+.lastnav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+}
+
+.lastnav a i {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 15px;
+
+}
+
+.iconbarsuser {
+    /* width: 90px;
+    height: 40px; */
+    display: flex;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.201);
+}
+
+.iconbarsuser a i {
+    margin: 3px 3px 0px 1px;
+    padding: 0px;
+
+}
+
+.jeevan {
+    display: flex;
+    margin-top: 33px;
+}
+
+.types {
+    overflow: scroll;
+    display: flex;
+    width: 900px;
+    margin-left: 50px;
+}
+
+.types div a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.676);
+    font-size: 13px;
+}
+
+.types div a img {
+    width: 22px;
+    color: rgba(0, 0, 0, 0.363);
+    opacity: 0.676;
+    margin-right: 70px;
+}
+
+.types::-webkit-scrollbar {
+    display: none;
+}
+
+.filter {
+    height: 40px;
+    margin-left: 20px;
+    padding: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.201);
+    border-radius: 8px;
+}
+
+.filter i {
+    padding-right: 20px;
+}
+
+.filter a {
+    /* margin-bottom: 20px; */
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.taxes {
+    margin-left: 15px;
+    height: 40px;
+    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.201);
+    border-radius: 8px;
+}
+
+.taxes a {
+    text-decoration: none;
+    color: black;
+}
+
+.taxes a div {
+    padding: 10px;
+
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.grid1 div a {
+    text-decoration: none;
+}
+
+.grid1 div a img {
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+#infoimg {
+    margin-bottom: 30px;
+    margin-left: 32px;
+}
+
+#dilkiid {
+    position: relative;
+    left: 260px;
+    bottom: 250px;
+    font-size: 25px;
+    color: white;
+}
+
+.fullfooter {
+    background-color: rgba(0, 0, 0, 0.063);
+}
+
+.foot {
+    padding: 35px;
+
+}
+
+.future {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.popular a {
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+}
+
+.grid2 {
+    padding-top: 10px;
+    border-top: 1px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid2 div a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.footerseclast {
+    margin-top: 20px;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line3 {
+    padding-right: 120px;
+}
+
+.line3 a {
+    padding: 5px;
+    margin: 0px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.665);
+}
+
+.maintop {
+    font-size: 20px;
+}
+
+.last {
+    display: flex;
+    border-top: 1px solid rgba(0, 0, 0, 0.325);
+    padding: 35px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: black;
+}
+
+.fti {
+    margin-left: 580px;
+}
+
+.fti a {
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}

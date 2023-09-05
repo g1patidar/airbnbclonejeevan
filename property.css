@@ -1,0 +1,376 @@
+nav{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.201);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar li{
+    list-style-type: none;
+}
+.navbar li a{
+   
+    text-decoration: none;
+    margin: 4px;
+}
+.centernav{
+    padding: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.201);
+    border-radius: 30px;
+}
+.centernav a{
+    padding: 2px 10px 0px 5px;
+    border-right: 1px solid rgba(0, 0, 0, 0.243);
+    color: black;
+}
+.lastnav{
+    display: flex;
+}
+.lastnav a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+}
+.lastnav a i{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 15px;
+
+}
+.iconbarsuser{
+    /* width: 90px;
+    height: 40px; */
+    display: flex;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.201);
+}
+.iconbarsuser a i{
+    margin: 3px 3px 0px 1px  ;
+    padding: 0px;
+
+}
+.page{
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.maintext{
+    font-size: 35px;
+}
+.sharesave{
+    float: right;
+    margin: 10px;
+    color: black;
+}
+.sharesave i{
+    margin-right: 5px;
+}
+.grid11{
+    height: 300px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 600px 520px;
+    
+}
+.grid11 div{
+    height: 100%;
+    width: 100%;
+    border: 1px solidl black;
+    overflow: hidden;
+}
+.grid21{
+    display: grid;
+    grid-template-columns: 240px 240px;
+}
+.grid21 div{
+    margin: 0px 10px 10px 10px;
+    height: 150px;
+    width: 275px;
+    overflow: hidden;
+}
+.grid21 div a img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+.mainpage{
+    display: grid;
+    grid-template-columns: 700px 400px;
+}
+.propertyman{
+    margin-top: 30px;
+    height: 600px ;
+    width: 670px;
+}
+.bor{
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.386);    
+}
+.bor a img{
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 330px;
+}
+.bor2{
+    margin-top: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.386);
+}
+.drive{
+    display: flex;
+}
+.drive div img{
+    margin-right: 20px;
+}
+#calender{
+    font-size: 20px;
+    margin-right: 20px;
+}
+.para{
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.386);
+}
+.offers{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.grid31{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.offering{
+    margin: 10px;
+    display: flex;
+}
+.button1{
+    margin-top: 30px;
+   border-bottom: 1px solid black;
+   padding-bottom: 40px;
+    
+}
+.button1 a{
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+}
+
+
+
+/* ################### */
+.details{
+    margin-top: 30px;
+    height: 400px;
+    width: 355px;
+    border: 1px solid rgba(0, 0, 0, 0.102);
+    border-radius: 20px;
+    
+    padding: 40px;
+    position: sticky;
+    top: 20px;
+}
+.details a{
+    text-decoration: none;
+}
+.rup{
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.dabba1{
+    height: 120px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.da2{
+    height: 60px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.check{
+    padding: 8px 0px 0px 20px;
+}
+.da1{
+    height: 60px;
+    display: grid;
+    grid-template-columns: auto;
+    border-top: 1px solid black;
+}
+.guest{
+    padding: 10px 0px 0px 20px;
+}
+.reserve{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: black;
+    border: 1px solid black;
+    border-radius:20px  ;
+    text-align: center;
+}
+.fee{
+    display: flex;
+    color: black;
+}
+.charge{
+   margin-left: 200px;
+}
+.total{
+    display: flex;
+}
+
+
+
+
+.reviews{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 40px 0px 40px 0px;
+    font-size: 40px;
+}
+
+.hosted{
+    margin-top: 30px;
+    display: flex;
+}
+.texthost{
+    font-size: 27px;
+}
+.hosted div{
+    margin: 4px;
+}
+.verified i{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.response{
+    font-size: 18px;
+    padding: 15px 0px 15px 0px;
+}
+.button2{
+    text-align: center;
+    height: 15px ;
+    width: 120px;
+    padding: 23px 20px 23px 20px ;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.protect{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+
+.things{
+    margin-top: 30px;
+}
+.grid41{
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    justify-content: space-between;
+}
+.top1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.bottom1{
+    margin-top: 15px;
+    font-size: 20px;
+    color: black;
+}
+.location{
+    
+    padding: 20px 0px 20px 0px ;
+    border-top:   1px solid rgba(0, 0, 0, 0.085) ;
+    border-bottom:1px solid rgba(0, 0, 0, 0.085) ;
+}
+.location a{
+    color: black;
+}
+
+
+
+.fullfooter{
+    background-color: rgba(0, 0, 0, 0.063);
+}
+.foot{
+    padding: 35px;
+    
+}
+.future{
+    font-size: 30px;
+    margin: 20px;
+}
+
+.popular a{
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+}
+
+.grid2{
+    padding-top: 10px;
+    border-top: 1px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid2 div a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+.footerseclast{
+    margin-top: 20px ;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.line3{
+    padding-right: 120px;
+}
+.line3 a{
+    padding: 5px ;
+    margin: 0px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.665);
+}
+.maintop{
+    font-size: 20px ;
+}
+.last{
+    display: flex;
+    border-top: 1px solid rgba(0, 0, 0, 0.325);
+    padding: 35px;
+}
+.terms a{
+text-decoration: none;
+color: black;
+}
+.fti{
+    margin-left: 580px;
+}
+.fti a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+
+
+
+
+
+

@@ -1,0 +1,190 @@
+nav {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.201);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar li a {
+
+    text-decoration: none;
+    margin: 4px;
+}
+
+
+/* ############# */
+.request{
+    display: grid;
+    grid-template-columns: 700px 600px;
+    justify-content: space-around;
+}
+.underereq{
+    height: 750px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.book{
+    font-size: 45px;
+}
+.trip{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dg,.dg1{
+    display: flex;
+}
+.dg a,.dg1 a{
+    margin-left: 550px;
+}
+.dg1{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.254);
+}
+
+
+
+
+
+
+
+
+/* 3################################################# */
+.detailss {
+    margin-top: 30px;
+    height: 380px;
+    width: 640px;
+    
+    border-radius: 30px;
+    scale: 1;
+    z-index: 10;
+}
+.detailss form {
+    margin: 20px;
+}
+
+.formgrid {
+    display: grid;
+    grid-template-columns: auto;
+
+}
+.formgrid div, .formgrid input{
+    margin: 3px;
+}
+.formgrid input {
+    padding: 2px;
+}
+
+.country {
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.country div {
+    padding: 2px;
+}
+
+.details form h2 a {
+    margin-right: 100px;
+}
+
+#des {
+    margin-top: 10px;
+}
+
+.button {
+    background-color: red;
+    color: black;
+    padding: 13px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.or{
+    display: flex;
+    margin-top: 20px;
+}
+.parebox{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.box{
+    padding: 10px 80px 10px 80px ;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.email{
+    margin-top: 20px;
+    padding: 10px 80px 10px 80px ;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    
+    color: black;
+}
+
+/* ########################################### */
+
+.details{
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 330px;
+    width: 355px;
+    border: 1px solid rgba(0, 0, 0, 0.102);
+    border-radius: 20px;
+    
+    padding: 40px;
+    position: sticky;
+    top: 20px;
+    box-shadow: 5px 5px 5px  black;
+}
+.jee{
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.102);
+    
+    
+}
+.img1{
+    height: 110px;
+    width: 150px;
+}
+.img1 img{
+    border-radius: 10px;
+}
+.total{
+    padding-top: 20px;
+    border-top:1px solid rgba(0, 0, 0, 0.102) ;
+    display: flex;
+}
+
+/* ################footer#################### */
+
+.last {
+    display: flex;
+    border-top: 1px solid rgba(0, 0, 0, 0.325);
+    padding: 35px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: black;
+}
+
+.fti {
+    margin-left: 580px;
+}
+
+.fti a {
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
