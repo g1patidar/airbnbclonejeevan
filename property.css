@@ -302,6 +302,17 @@ nav{
     color: black;
 }
 
+.map{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.085);
+}
+.map iframe{
+    
+    width: 100%;
+}
+
 
 
 .fullfooter{
